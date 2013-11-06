@@ -1,0 +1,35 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: rough_development
+  pool: 5
+  username: postgres
+  password:
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: rough_test
+  pool: 5
+  username: postgres
+  password:
+  host: localhost
+
+staging:
+  adapter: postgresql
+  encoding: unicode
+  database: rough_staging
+  pool: 5
+  username: postgres
+  password:
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: rough_production
+  pool: 5
+  username: postgres
+  password:
+  host: localhost
